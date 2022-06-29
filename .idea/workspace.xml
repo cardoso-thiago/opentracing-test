@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f6e2c89-ecea-490f-aa40-f4b88fd6b602" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/demo-jaeger-lib">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/demo-jaeger-lib-webflux">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2BG9mklSBcIuyJj14NnZwfFkQMC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/cardoso/Documentos/Profissional/POC/opentracing-test/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo-jaeger-lib/src/main/java/br/com/cardoso" />
+      <recent name="$PROJECT_DIR$/demo-jaeger-lib/src/main/java" />
+      <recent name="$PROJECT_DIR$/demo-jaeger-lib/src/main" />
+      <recent name="$PROJECT_DIR$/demo-jaeger-lib/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.cardoso.configuration" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DemoJaegerLibWebfluxApplication">
+    <configuration name="DemoJaegerLibApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.cardoso.DemoJaegerLibApplication" />
+      <module name="demo-jaeger-lib.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.cardoso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoJaegerLibWebfluxApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.cardoso.DemoJaegerLibWebfluxApplication" />
+      <module name="demo-jaeger-lib-webflux.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.cardoso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoJaegerLibWebfluxApplication" />
+        <item itemvalue="Application.DemoJaegerLibApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f6e2c89-ecea-490f-aa40-f4b88fd6b602" name="Changes" comment="" />
+      <created>1656521717313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656521717313</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.opentracing.contrib/opentracing-spring-web-starter/3.0.1/1bc2f950fa150ffc968da1494252660a1d479670/opentracing-spring-web-starter-3.0.1-sources.jar!/io/opentracing/contrib/spring/web/starter/WebFluxTracingAutoConfiguration.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.opentracing.contrib/opentracing-spring-web-starter/3.0.1/1bc2f950fa150ffc968da1494252660a1d479670/opentracing-spring-web-starter-3.0.1-sources.jar!/io/opentracing/contrib/spring/web/starter/WebClientTracingAutoConfiguration.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.opentracing.contrib/opentracing-spring-web-starter/3.0.1/1bc2f950fa150ffc968da1494252660a1d479670/opentracing-spring-web-starter-3.0.1-sources.jar!/io/opentracing/contrib/spring/web/starter/WebClientTracingAutoConfiguration.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
