@@ -9,7 +9,7 @@ public class OpenTracingConfiguration {
 
     //Criando o bean do WebClient para que possa ser considerado no Tracing
     @Bean
-    public WebClient webClientHello() {
-        return WebClient.builder().baseUrl("http://localhost:8080/world").build();
+    public WebClient.Builder webClientBuilder() {
+        return WebClient.builder();
     }
 }

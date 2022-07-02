@@ -1,0 +1,1 @@
+curl -i -H "server_header_test: value_from_server_header" http://localhost:8080/hello

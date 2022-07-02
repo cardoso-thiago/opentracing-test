@@ -15,6 +15,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	implementation 'io.opentracing.contrib:opentracing-spring-jaeger-cloud-starter:3.3.1'
+	implementation("io.projectreactor.tools:blockhound:1.0.6.RELEASE")
 }
 
 tasks.named('test') {

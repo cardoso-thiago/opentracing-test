@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f6e2c89-ecea-490f-aa40-f4b88fd6b602" name="Changes" comment="" />
+    <list default="true" id="8f6e2c89-ecea-490f-aa40-f4b88fd6b602" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/README.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/configuration/ReactiveRequestContextFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/filter/FilterFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/util/ReactiveRequestContextHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-jaeger-lib-webflux/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/configuration/OpenTracingConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/configuration/OpenTracingConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/controller/OpenTracingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/controller/OpenTracingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/service/OpenTracingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/service/OpenTracingService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +53,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -54,6 +70,7 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2BG9mklSBcIuyJj14NnZwfFkQMC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,6 +79,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "/home/cardoso/Documentos/Profissional/POC/opentracing-test/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso"
   }
 }]]></component>
@@ -124,23 +142,27 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.opentracing.contrib/opentracing-spring-web-starter/3.0.1/1bc2f950fa150ffc968da1494252660a1d479670/opentracing-spring-web-starter-3.0.1-sources.jar!/io/opentracing/contrib/spring/web/starter/WebFluxTracingAutoConfiguration.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.opentracing.contrib/opentracing-spring-web-starter/3.0.1/1bc2f950fa150ffc968da1494252660a1d479670/opentracing-spring-web-starter-3.0.1-sources.jar!/io/opentracing/contrib/spring/web/starter/WebClientTracingAutoConfiguration.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.opentracing.contrib/opentracing-spring-web-starter/3.0.1/1bc2f950fa150ffc968da1494252660a1d479670/opentracing-spring-web-starter-3.0.1-sources.jar!/io/opentracing/contrib/spring/web/starter/WebClientTracingAutoConfiguration.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/util/ReactiveRequestContextHolder.java</url>
+          <line>9</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
