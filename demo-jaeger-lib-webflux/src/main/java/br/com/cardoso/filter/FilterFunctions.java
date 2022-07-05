@@ -7,6 +7,7 @@ import org.springframework.web.reactive.function.client.ExchangeFilterFunction;
 import reactor.core.publisher.Mono;
 
 import java.util.Objects;
+import java.util.Optional;
 
 public class FilterFunctions {
 
@@ -15,10 +16,16 @@ public class FilterFunctions {
     }
 
     public static ExchangeFilterFunction addHeaderFromServerRequest() {
-        Mono<ServerHttpRequest> serverHttpRequestMono = ReactiveRequestContextHolder.getRequest();
-        return ExchangeFilterFunction.ofRequestProcessor(clientRequest -> serverHttpRequestMono
-                .map(serverHttpRequest -> ClientRequest.from(clientRequest)
-                        .header("server_header_test", Objects.requireNonNull(serverHttpRequest.getHeaders()
-                                .get("server_header_test")).get(0)).build()));
+        Mono<Optional<Object>> serverHttpRequestMono = ReactiveRequestContextHolder.getRequest();
+        return ExchangeFilterFunction.ofRequestProcessor(clientRequest -> serverHttpRequestMono.map(serverHttpRequest -> {
+            if (serverHttpRequest.isPresent()) {
+                return ClientRequest.from(clientRequest).header("server_header_test",
+                        Objects.requireNonNull(((ServerHttpRequest) serverHttpRequest.get()).getHeaders().get("server_header_test")).get(0)).build();
+            } else {
+                return clientRequest;
+            }
+        }));
+
+
     }
 }

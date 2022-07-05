@@ -7,15 +7,15 @@ import reactor.core.publisher.Mono;
 
 @Service
 public class OpenTracingService {
+    private final WebClient webClient;
 
-    private final WebClient.Builder webClientBuilder;
-
-    public OpenTracingService(WebClient.Builder webClientBuilder) {
-        this.webClientBuilder = webClientBuilder;
+    public OpenTracingService(WebClient webClient) {
+        this.webClient = webClient;
     }
 
     public Mono<String> hello() {
-        return webClientBuilder.baseUrl("http://localhost:8080")
+
+        return webClient.mutate().baseUrl("http://localhost:8080")
                 .filter(FilterFunctions.addTestHeader())
                 .filter(FilterFunctions.addHeaderFromServerRequest())
                 .build().get().uri("world")

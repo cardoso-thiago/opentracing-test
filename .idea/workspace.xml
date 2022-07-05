@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f6e2c89-ecea-490f-aa40-f4b88fd6b602" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/configuration/JaegerCustomConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/aop/CoreWebAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/configuration/OpenTracingConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/configuration/OpenTracingConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/filter/FilterFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/filter/FilterFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/service/OpenTracingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/service/OpenTracingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/util/ReactiveRequestContextHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/util/ReactiveRequestContextHolder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +162,11 @@
           <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.opentracing.contrib/opentracing-spring-jaeger-starter/3.3.1/2b41b7bb0f1322452e69a67361d398c3e88dd5cc/opentracing-spring-jaeger-starter-3.3.1-sources.jar!/io/opentracing/contrib/java/spring/jaeger/starter/JaegerAutoConfiguration.java</url>
           <line>87</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-jaeger-lib-webflux/src/main/java/br/com/cardoso/service/OpenTracingService.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
